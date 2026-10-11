@@ -7,7 +7,6 @@ local ok, err = pcall(function()
         "https://raw.githubusercontent.com/wzm-dev/Strelitzia/main/Strelitzia.lua"
     ))()
 end)
-print("[Strelitzia] Carregado com sucesso!")
 if not ok then
     warn("[Strelitzia] Falha ao carregar: " .. tostring(err))
 end
